@@ -1,3 +1,608 @@
-<html>
-<body>
-<h1>This is a website</h1>
+---
+layout: default
+slider:
+    - img: Fruit-Treat_All.jpg
+      title: Fruit Treat Chips
+      about: 
+    - img: Fruit-Treat_Banana.jpg
+      title: Banana Treat
+      about:
+    - img: Fruit-Treat_Chickoo.jpg
+      title: Chickoo Treat
+      about:
+    - img: Fruit-Treat_Jackfruit.jpg
+      title: Jackfruit Treat
+      about:
+    - img: Fruit-Treat_Papaya.jpg
+      title: Papaya Treat
+      about:
+
+---
+<div class="loader-backdrop" style="display: none;">           <!-- Pre Loader -->
+        <div class="loader">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+            <span class="dot dot4"></span>
+        </div>
+    </div>
+    
+  {% include header-index.html %}
+  
+  {% include slider.html %}
+
+    <!-- Section -->
+    <section class="bgcolor3 pt-100 pb-80" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-box">
+                        <h2>Amazingly Powerful Features</h2>
+                        <p class="sub-heading">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box-1">
+                        <div class="icon">
+                            <i class="ion-ios-game-controller-b-outline"></i>
+                        </div>
+                        <h4>Realistic Gaming</h4>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box-1">
+                        <div class="icon">
+                            <i class="ion-ios-mic-outline"></i>
+                        </div>
+                        <h4>Built-in Mic</h4>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box-1">
+                        <div class="icon">
+                            <i class="ion-ios-settings"></i>
+                        </div>
+                        <h4>Fully Cutomizable</h4>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box-1">
+                        <div class="icon">
+                            <i class="ion-ios-cloud-upload-outline"></i>
+                        </div>
+                        <h4>Free Cloud Storage</h4>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box-1">
+                        <div class="icon">
+                            <i class="ion-ios-unlocked-outline"></i>
+                        </div>
+                        <h4>Child Lock</h4>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box-1">
+                        <div class="icon">
+                            <i class="ion-ios-color-filter-outline"></i>
+                        </div>
+                        <h4>16 Million Colors</h4>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-box">
+                        <h2>Tech</h2>
+                        <p class="sub-heading">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-20">
+                    <img src="/img/product-shot-2.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-6 mt-20">
+                    <ul class="features">
+                        <li>
+                            <div class="icon">
+                                <i class="ion-ios-monitor-outline"></i>
+                            </div>
+                            <div class="features-body">
+                                <h6 class="heading">Ultra HD Display</h6>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="ion-ios-speedometer-outline"></i>
+                            </div>
+                            <div class="features-body">
+                                <h6 class="heading">High Refresh Rate</h6>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="ion-ios-color-filter-outline"></i>
+                            </div>
+                            <div class="features-body">
+                                <h6 class="heading">See every Color</h6>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+ 
+{% include reviews.html %}
+   
+    <!-- Section -->
+    <section class="pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-box">
+                        <h2>What's so special</h2>
+                        <p class="sub-heading">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-20">
+                    <img src="/img/product-shot-3.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-6 mt-20">
+                    <p class="lead">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy.</p>
+                    <ul class="list-default">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                        <li>Sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li>Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed do eiusmod tempor incididunt ut labore et dolore magna.</li>
+                        <li>Sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    </ul>
+                    <a href="" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="pt-100 pb-100" style="background-image: url(/images/light-bg.jpg); background-position: center 30%; background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="counter-box">
+                        <div class="counter-body">
+                            <div class="icon"><i class="ion-ios-timer-outline"></i></div>
+                            <h3 class="count" data-to="5470802">5,470,802</h3>
+                            <div class="text">Units sold</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <!-- Section -->
+    <section class="pt-100 pb-80" id="process">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-box">
+                        <h2>Booking Process</h2>
+                        <p class="sub-heading">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="process-box">
+                        <div class="process-header">
+                            1
+                        </div>
+                        <div class="process-body">
+                            <h5 class="heading">Refer headset to friend</h5>
+                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="process-box">
+                        <div class="process-header">
+                            2
+                        </div>
+                        <div class="process-body">
+                            <h5 class="heading">Get Scratch coupon</h5>
+                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="process-box">
+                        <div class="process-header">
+                            3
+                        </div>
+                        <div class="process-body">
+                            <h5 class="heading">Get extended warranty</h5>
+                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+    <!-- Section -->
+    <section class="bgcolor3 pt-100 pb-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-box">
+                        <h2>Featured By Leaders</h2>
+                        <p class="sub-heading">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="logo-box">
+                        <img src="/img/logo-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="logo-box">
+                        <img src="/img/logo-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="logo-box">
+                        <img src="/img/logo-6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="logo-box">
+                        <img src="/img/logo-8.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="logo-box">
+                        <img src="/img/logo-4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="logo-box">
+                        <img src="/img/logo-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="logo-box">
+                        <img src="/img/logo-5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="logo-box">
+                        <img src="/img/logo-7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="pt-100 pb-100" id="testimonials" style="background-image: url(/images/product-bg-1.jpg); background-position: center 20%">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-box left">
+                        <h2 class="white">People Show Love</h2>
+                        <p class="sub-heading white">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-slider">
+                        <div class="slider-items owl-carousel owl-loaded owl-drag">
+                            
+                            
+                        <div class="owl-stage-outer"><div class="owl-stage" style="transition: 1s; width: 3510px; transform: translate3d(-1755px, 0px, 0px);"><div class="owl-item cloned" style="width: 555px; margin-right: 30px;"><div>
+                                <div class="testimonial-box">
+                                    <div class="testimonial-img">
+                                        <img src="/img/customer-2.jpg" class="img-circle" alt="">
+                                    </div>
+                                    <span class="testimonial-by">
+                                        Callum Grant
+                                    </span>
+                                    <div class="testimonial-body">
+                                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts.</p>
+                                    </div>
+
+                                </div>
+                            </div></div><div class="owl-item cloned" style="width: 555px; margin-right: 30px;"><div>
+                                <div class="testimonial-box">
+                                    <div class="testimonial-img">
+                                        <img src="/img/customer-1.jpg" class="img-circle" alt="">
+                                    </div>
+                                    <span class="testimonial-by">
+                                        Jonathan Andre
+                                    </span>
+                                    <div class="testimonial-body">
+                                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts.</p>
+                                    </div>
+                                </div>
+                            </div></div><div class="owl-item" style="width: 555px; margin-right: 30px;"><div>
+                                <div class="testimonial-box">
+                                    <div class="testimonial-img">
+                                        <img src="/img/customer-2.jpg" class="img-circle" alt="">
+                                    </div>
+                                    <span class="testimonial-by">
+                                        Callum Grant
+                                    </span>
+                                    <div class="testimonial-body">
+                                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts.</p>
+                                    </div>
+
+                                </div>
+                            </div></div><div class="owl-item active center" style="width: 555px; margin-right: 30px;"><div>
+                                <div class="testimonial-box">
+                                    <div class="testimonial-img">
+                                        <img src="/img/customer-1.jpg" class="img-circle" alt="">
+                                    </div>
+                                    <span class="testimonial-by">
+                                        Jonathan Andre
+                                    </span>
+                                    <div class="testimonial-body">
+                                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts.</p>
+                                    </div>
+                                </div>
+                            </div></div><div class="owl-item cloned" style="width: 555px; margin-right: 30px;"><div>
+                                <div class="testimonial-box">
+                                    <div class="testimonial-img">
+                                        <img src="/img/customer-2.jpg" class="img-circle" alt="">
+                                    </div>
+                                    <span class="testimonial-by">
+                                        Callum Grant
+                                    </span>
+                                    <div class="testimonial-body">
+                                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts.</p>
+                                    </div>
+
+                                </div>
+                            </div></div><div class="owl-item cloned" style="width: 555px; margin-right: 30px;"><div>
+                                <div class="testimonial-box">
+                                    <div class="testimonial-img">
+                                        <img src="/img/customer-1.jpg" class="img-circle" alt="">
+                                    </div>
+                                    <span class="testimonial-by">
+                                        Jonathan Andre
+                                    </span>
+                                    <div class="testimonial-body">
+                                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts.</p>
+                                    </div>
+                                </div>
+                            </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot"><span></span></div><div class="owl-dot active"><span></span></div></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="pt-100 pb-80 bgcolor3" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-box">
+                        <h2>Affordable Plans</h2>
+                        <p class="sub-heading">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-box">
+                        <div class="pricing-header">
+                            <div class="plan-name">Student</div>
+                            <div class="price">$199</div>
+                            <div class="plan-tenure">One time cost</div>
+                        </div>
+                        <hr>
+                        <div class="pricing-body">
+                            <ul>
+                               <li><i class="ion-ios-cloud-outline"></i> 20GB Cloud storage</li> 
+                               <li><i class="ion-ios-gear-outline"></i> On-site free service</li> 
+                               <li><i class="ion-ios-locked-outline"></i> 2 year insurance</li> 
+                               <li><i class="ion-ios-shuffle"></i> 2.6GHZ Processor</li> 
+                               <li><i class="ion-ios-videocam-outline"></i> Access to Movies</li> 
+                            </ul>
+                        </div>
+                        <a href="http://wwsthemes.com/themes/ambar/v1.1/ambar-light/index-2.html" class="btn btn-primary">Get this</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-box popular">
+                        <div class="pricing-header">
+                            <div class="plan-name">Startup</div>
+                            <div class="price">$249</div>
+                            <div class="plan-tenure">One time cost</div>
+                        </div>
+                        <hr>
+                        <div class="pricing-body">
+                            <ul>
+                               <li><i class="ion-ios-cloud-outline"></i> 20GB Cloud storage</li> 
+                               <li><i class="ion-ios-gear-outline"></i> On-site free service</li> 
+                               <li><i class="ion-ios-locked-outline"></i> 2 year insurance</li> 
+                               <li><i class="ion-ios-shuffle"></i> 2.6GHZ Processor</li> 
+                               <li><i class="ion-ios-videocam-outline"></i> Access to Movies</li> 
+                            </ul>
+                        </div>
+                        <a href="" class="btn btn-primary">Get this</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-box">
+                        <div class="pricing-header">
+                            <div class="plan-name">Business</div>
+                            <div class="price">$299</div>
+                            <div class="plan-tenure">One time cost</div>
+                        </div>
+                        <hr>
+                        <div class="pricing-body">
+                            <ul>
+                               <li><i class="ion-ios-cloud-outline"></i> 20GB Cloud storage</li> 
+                               <li><i class="ion-ios-gear-outline"></i> On-site free service</li> 
+                               <li><i class="ion-ios-locked-outline"></i> 2 year insurance</li> 
+                               <li><i class="ion-ios-shuffle"></i> 2.6GHZ Processor</li> 
+                               <li><i class="ion-ios-videocam-outline"></i> Access to Movies</li> 
+                            </ul>
+                        </div>
+                        <a href="" class="btn btn-primary">Get this</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="pt-100 pb-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-box">
+                        <h2>Questions Often Asked</h2>
+                        <p class="sub-heading">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="panel-group accordion" id="a1" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="a1heading1">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#a1" href="" aria-expanded="true" aria-controls="a1body1">
+                                        <i class="ion-ios-toggle-outline"></i> How should I configure it correctly?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="a1body1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="a1heading1">
+                                <div class="panel-body">
+                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="a1heading2">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#a1" href="" aria-expanded="false" aria-controls="a1body2">
+                                      <i class="ion-ios-color-wand-outline"></i> What features does it offer over others?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="a1body2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="a1heading2">
+                                <div class="panel-body">
+                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="a1heading3">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#a1" href="" aria-expanded="false" aria-controls="a1body3">
+                                      <i class="ion-ios-people-outline"></i> There is delay in my video playback?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="a1body3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="a1heading3">
+                                <div class="panel-body">
+                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Section -->
+    <section class="bgcolor3 pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Enter the virtual world of awesomeness.</h3>
+                    <p class="nom">Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+                </div>
+                <div class="col-md-4">
+                    <br>
+                    <a href="" class="btn btn-primary btn-lg">Get Headset Now!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="pt-100 pb-80" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-box">
+                        <h2>Our Dedicated Team</h2>
+                        <p class="sub-heading">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="member-box">
+                        <img src="/img/team-1.jpg" class="img-rounded" alt="">
+                        <h6 class="heading">Nandy Puerto</h6>
+                        <span class="text-muted">CEO, Ambar sysrems</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="member-box">
+                        <img src="/img/team-2.jpg" class="img-rounded" alt="">
+                        <h6 class="heading">Josh Harding</h6>
+                        <span class="text-muted">Business Op, Ambar sysrems</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="member-box">
+                        <img src="/img/team-3.jpg" class="img-rounded" alt="">
+                        <h6 class="heading">Cameron Rowley</h6>
+                        <span class="text-muted">Operations, Ambar sysrems</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="member-box">
+                        <img src="/img/team-2.jpg" class="img-rounded" alt="">
+                        <h6 class="heading">Harrison Walton</h6>
+                        <span class="text-muted">Support, Ambar sysrems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section id="contact" class="pt-100 pb-100" style="background-image: url(/images/product-bg-2.jpg); background-position: center center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <h3 class="white">Subscribe to Our Mailing List</h3>
+                    </div>
+                    <p class="white">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.</p>
+                    <br>
+                    <form lpformnum="1">
+                        <div class="form-group">
+                            <input class="form-control" id="example-text-input-inline" type="text" placeholder="Leave your mail id here">
+                        </div>
+                        <button class="btn btn-primary" type="submit">Subscribe!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include footer.html %}
