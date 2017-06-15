@@ -2,3 +2,22 @@
 .slide-1 {
     background-image: url(/img/Fruit-Treat_All-Packaging.jpg);
 }
+
+.products {
+    position: relative;
+    h4 {
+        color: #fff;
+/*         font-weight: bold; */
+    }
+    ul {
+        color: #eee;
+        position: absolute;
+        bottom: 10px;
+        margin-right: 15px;
+        padding-bottom: 10px;
+        background-color: rgba(0,0,0,0.15);
+    
+    }
+}
+
+

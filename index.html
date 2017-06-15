@@ -3,24 +3,35 @@ layout: default
 slider:
     - img: Fruit-Treat_All.jpg
       title: Fruit Treat Chips
-      about: Healthy, Crispy, Crunchy and Tasty Chips, made with naturally and organically cultivated fruits in the heart of Western Ghats rich in medicinal values.
-      
+      about: 
     - img: Fruit-Treat_Banana.jpg
       title: Banana Treat
-      about: Healthy, Crispy, Crunchy and Tasty Banana Treat, made with naturally and organically cultivated Banana in the heart of Western Ghats rich in medicinal values.
-      
+      about:
     - img: Fruit-Treat_Chickoo.jpg
       title: Chickoo Treat
-      about: Healthy, Crispy, Crunchy and Tasty Chickoo Treat, made with naturally and organically cultivated Chickoo fruits in the heart of Western Ghats rich in medicinal values.
-      
+      about:
     - img: Fruit-Treat_Jackfruit.jpg
       title: Jackfruit Treat
-      about: Healthy, Crispy, Crunchy and Tasty Jack Treat, made with naturally and organically cultivated Jackfruit in the heart of Western Ghats rich in medicinal values.
-      
+      about:
     - img: Fruit-Treat_Papaya.jpg
       title: Papaya Treat
-      about: Healthy, Crispy, Crunchy and Tasty Papaya Treat, made with naturally and organically cultivated Papaya fruits in the heart of Western Ghats rich in medicinal values.
-
+      about:
+products:
+    - img: FruitTreat-Banana.jpg
+      title: Natural Banana Chips
+      about: "<li>Made with fruits naturally and organically cultivated in pristine environment of the Western Ghats.</li><li>Processed using Vacuum Frying technology.</li><li>Free from preservatives.</li><li>No added sugar.</li><li>No added color.</li><li>Rich in Protein, Potassium, Dietary Fibers, Vitamin B6 and C.</li>"
+      
+    - img: FruitTreat-Chickoo.jpg
+      title: Natural Chickoo Chips
+      about: "<li>Made with Sapota fruits naturally and organically cultivated in pristine environment of the Western Ghats.</li><li>Processed using Vacuum Frying technology.</li><li>Free from perseverates.</li><li>No added sugar.</li><li>No added color.</li><li>Rich in Dietary Fibers, Potassium, Copper , Iron and Vitamin C.</li>"
+      
+    - img: FruitTreat-Jackfruit.jpg
+      title: Natural Jackfruit Chips
+      about: "<li>Made with Jack fruits naturally and organically cultivated in pristine environment of the Western Ghats.</li><li>Processed using Vacuum Frying technology.</li><li>Free from perseverates.</li><li>No added sugar.</li><li>No added color.</li><li>Zero Cholesterol, Filled With Vitamin A, C, E, K, B6.</li><li>Best supplement of Copper, Manganese & Magnesium.</li>"
+      
+    - img: FruitTreat-Papaya.jpg
+      title: Natural Papaya Chips
+      about: "<li>Made with Papaya fruits naturally and organically cultivated in pristine environment of the Western Ghats.</li><li>Processed using Vacuum Frying technology.</li><li>Free from perseverates.</li><li>No added sugar.</li><li>No added color.</li><li>Rich in Protein, Potassium, Dietary Fibers, Manganese, Vitamin B6 and C.</li>"
 ---
 <div class="loader-backdrop" style="display: none;">           <!-- Pre Loader -->
         <div class="loader">
@@ -41,20 +52,19 @@ slider:
             <div class="row">
                 <div class="col-md-12">
                     <div class="heading-box">
-                        <h2>Amazingly Powerful Features</h2>
-                        <p class="sub-heading">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <h2>Taste directly extracted from the nature</h2>
+                        <p class="sub-heading">Healthy, Crispy, Crunchy and Tasty Treat.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="icon-box-1">
-                        <div class="icon">
-                            <i class="ion-ios-game-controller-b-outline"></i>
+                 {% for image in page.products %}
+                   <div class="col-md-6 products">
+                        <div class="icon-box-1" style="background-image: url(/images/{{image.img}}); height: 360px; width:100%; background-repeat: no-repeat;background-position: center center;background-size: cover;">
+                            <h4>{{image.title}}</h4>   
                         </div>
-                        <h4>Realistic Gaming</h4>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            <ul>{{image.about}}</ul>
                     </div>
-                </div>
-                <div class="col-md-4">
+                {% endfor %}
+               <!--  <div class="col-md-4">
                     <div class="icon-box-1">
                         <div class="icon">
                             <i class="ion-ios-mic-outline"></i>
@@ -98,7 +108,8 @@ slider:
                         <h4>16 Million Colors</h4>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                     </div>
-                </div>
+                </div> -->
+
             </div>
         </div>
     </section>
