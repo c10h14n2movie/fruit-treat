@@ -3,11 +3,7 @@
 #
 # Use with caution. Wrong values may break the site
 
-
-
 title: Fruit Treat
-url: https://fruittreat.com
-enforce_ssl: fruittreat.com
 
 
 facebook:
@@ -31,5 +27,3 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
-  
-gems: [jekyll-seo-tag]
