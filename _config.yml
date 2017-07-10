@@ -4,7 +4,7 @@
 # Use with caution. Wrong values may break the site
 
 title: Fruit Treat
-
+description: Healthy, Crispy, Crunchy and Tasty Fruit Treat, made with fruits naturally and organically cultivated in the heart of Western Ghats rich in medicinal Plants.
 
 facebook: https://www.facebook.com/Fruit_Treat_India-1734956993200339/
 twitter:
@@ -28,3 +28,7 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
+  
+  
+gems: 
+    - jekyll-seo-tag
