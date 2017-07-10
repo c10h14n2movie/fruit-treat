@@ -1,13 +1,4 @@
 /*
-Template Name: Ambar
-Template URL: http://wwsthemes.com/themes/ambar/v1.0/
-Description: Multipurpose Landing Page Template
-Version: 1.0
-Author: WWS Themes
-Author URL: http://wwsthemes.com
-*/
-
-/*
 
     **************MENU**************
 
@@ -759,8 +750,11 @@ header.fixed{
     display: inline-block;
     background-color: #fff;
     border-radius: 50%;
+    width: 80px;
+    height: 80px;
     padding: 3px;
     box-shadow: 6px 2px 3px rgba(0, 0, 0, 0.15);
+    opacity: 0.9;
 }
 
 .testimonial-box .testimonial-body{

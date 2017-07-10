@@ -50,3 +50,12 @@
 }
 
 
+
+.footer-box {
+    img {
+        filter: grayscale(100%);
+        &:hover {
+            filter: grayscale(0%)
+        }
+    }
+}
